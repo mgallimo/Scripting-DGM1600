@@ -8,8 +8,10 @@ using System;
  Lists are similar to arrays, but are more dynamic in size. 
  You also do not need to know how many elements a list has ahead of time when using lists.
  int.Count works the same as the length property or arrays.
- int.RemoveAt removes an element from an index 
+ int.RemoveAt removes an element from an index.
+ int.RemoveAll removes every element from its index (I think?).
  int.Insert takes an index and element and pushes all the other elements up a place.
+ When using lists, you need to include a "using System.Collections.generic;" at the top of your code.
  */
 
 public class Lists : MonoBehaviour {
